@@ -1,3 +1,7 @@
+#git ignore
 2.html
 .env.local
 folder/1.html
+*.env
+!.env.example
+
