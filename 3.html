@@ -9,17 +9,49 @@
   .section { padding:80px 20px; text-align:center; }
   .title { font-size:42px; margin-bottom:10px; }
   .subtitle { font-size:18px; color:#555; }
-  .store-buttons img { width:150px; margin:15px; }
 </style>
 </head>
-<body>
+<body style="background-video:url('photo.jpeg'); background-size:cover; background-position:center; background-repeat:repeat;">
+
+
 <div class="section">
   <h1 class="title">Your New Scanner App</h1>
   <p class="subtitle">Fast, accurate & offline-ready scanning.</p>
-  <div class="store-buttons">
-    <img src="playstore.png" alt="">
-    <img src="appstore.png" alt="">
-  </div>
 </div>
+
+<div class="section" style="display:grid; gap:1px; justify-content:center;">
+
+  <!-- Video autoplay + loop + muted = works everywhere -->
+  <div style="
+    width:400px; 
+    height:300px; 
+    border-radius:13px; 
+    overflow:hidden;">
+    
+    <video 
+      src="/1651-148614472_small.mp4" 
+      autoplay loop
+      style="width:100%; height:100%; object-fit:cover;">
+    </video>
+
+  </div>
+  <div style="
+  border-radius:12px; 
+  overflow:auto; 
+  width:300px;
+  align-content:center;">
+  
+  <audio 
+    src="/best-background-music-238042.mp3" 
+    autoplay 
+    controls >
+  </audio>
+
+</div>
+
+  
+
+</div>
+
 </body>
 </html>
