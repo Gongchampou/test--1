@@ -3,5 +3,5 @@
 .env.local
 folder/1.html
 !.env
-*.env.example
+.env.example
 
